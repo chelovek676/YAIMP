@@ -3,9 +3,9 @@
 int main(){
 	int number;
 	printf("Введите число: ");
-	scanf("%d", &number);
+	scanf("%d", &number); //считываем введённое число по адресу переменной
 
-	if(number % 2 == 0){
+	if(number % 2 == 0){ //проверка на чётность
 		printf("Число %d является четным.\n", number);
 	}
 	else{
